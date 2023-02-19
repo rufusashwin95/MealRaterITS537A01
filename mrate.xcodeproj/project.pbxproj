@@ -14,6 +14,7 @@
 		9B5ED48F2997745200E78579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B5ED48E2997745200E78579 /* Assets.xcassets */; };
 		9B5ED4922997745200E78579 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5ED4902997745200E78579 /* LaunchScreen.storyboard */; };
 		9B5ED49C29977D8000E78579 /* RatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5ED49B29977D8000E78579 /* RatingViewController.swift */; };
+		9BA717E6299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9BA717E4299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		9B5ED4912997745200E78579 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B5ED4932997745200E78579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B5ED49B29977D8000E78579 /* RatingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingViewController.swift; sourceTree = "<group>"; };
+		9BA717E5299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyMealRaterModel.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				9B5ED4852997745100E78579 /* AppDelegate.swift */,
+				9BA717E4299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodeld */,
 				9B5ED4872997745100E78579 /* SceneDelegate.swift */,
 				9B5ED4892997745100E78579 /* ViewController.swift */,
 				9B5ED49B29977D8000E78579 /* RatingViewController.swift */,
@@ -143,6 +146,7 @@
 			files = (
 				9B5ED48A2997745100E78579 /* ViewController.swift in Sources */,
 				9B5ED49C29977D8000E78579 /* RatingViewController.swift in Sources */,
+				9BA717E6299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodeld in Sources */,
 				9B5ED4862997745100E78579 /* AppDelegate.swift in Sources */,
 				9B5ED4882997745100E78579 /* SceneDelegate.swift in Sources */,
 			);
@@ -360,6 +364,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9BA717E4299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9BA717E5299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodel */,
+			);
+			currentVersion = 9BA717E5299FB6E600B1BD7C /* MyMealRaterModel.xcdatamodel */;
+			path = MyMealRaterModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9B5ED47A2997745100E78579 /* Project object */;
 }
